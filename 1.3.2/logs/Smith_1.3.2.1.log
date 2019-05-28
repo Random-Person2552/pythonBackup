@@ -1,0 +1,21 @@
+# IPython log file
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import numpy as np
+a = np.random.randin(10000)
+a = np.random.randn(10000)
+plt.hist(a)
+#[Out]# (array([    7.,    61.,   349.,  1386.,  2623.,  2994.,  1835.,   608.,
+#[Out]#          127.,    10.]), array([-4.06247721, -3.278302  , -2.49412678, -1.70995157, -0.92577635,
+#[Out]#        -0.14160114,  0.64257408,  1.4267493 ,  2.21092451,  2.99509973,
+#[Out]#         3.77927494]), <a list of 10 Patch objects>)
+plt.savefig('1.3.2/Histogram')
+# Tue, 04 Dec 2018 22:25:00
+# Jared Smith 1.3.2 IPython log
+# Tue, 04 Dec 2018 22:25:39
+5+3
+#[Out]# 8
+# Tue, 04 Dec 2018 22:30:28
+%logstop

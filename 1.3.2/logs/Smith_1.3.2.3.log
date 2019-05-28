@@ -1,0 +1,114 @@
+# IPython log file
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import numpy as np
+a = np.random.randin(10000)
+a = np.random.randn(10000)
+plt.hist(a)
+#[Out]# (array([    7.,    61.,   349.,  1386.,  2623.,  2994.,  1835.,   608.,
+#[Out]#          127.,    10.]), array([-4.06247721, -3.278302  , -2.49412678, -1.70995157, -0.92577635,
+#[Out]#        -0.14160114,  0.64257408,  1.4267493 ,  2.21092451,  2.99509973,
+#[Out]#         3.77927494]), <a list of 10 Patch objects>)
+plt.savefig('1.3.2/Histogram')
+%logstart -ort 1.3.2/logs/Smith_1.3.2.#.log
+# Jared Smith 1.3.2 IPython log
+5+3
+#[Out]# 8
+%logstop
+%logstart -ort 1.3.2/logs/Smith_1.3.2.#.log
+7*2
+#[Out]# 14
+7*2.
+#[Out]# 14.0
+#Jared Smith IPython Log 1.3.2
+#7a The data type your answer is depends on whether or not you use floats or integers. If you use 2 integers, you will recieve an integer, but if you use a float, you will recieve a float
+7/2
+#[Out]# 3
+7/2.
+#[Out]# 3.5
+#7b Int/int returns an integer, whereas int/float returns a float
+a = 2
+#8 assignment
+student_age = 16
+a
+#[Out]# 2
+a * 7
+#[Out]# 14
+3 ** 2
+#[Out]# 9
+23**43
+#[Out]# 35834136918934220777541995677272642015423987712183913488967L
+abs(-7)
+#[Out]# 7
+%logstop
+# Thu, 06 Dec 2018 21:41:33
+%run 1.3.2/Smith-1.3.2.py
+# Thu, 06 Dec 2018 21:41:52
+%run 1.3.2/Smith_1.3.2.py
+# Thu, 06 Dec 2018 21:42:04
+add_tip(10, 10)
+#[Out]# 110
+# Thu, 06 Dec 2018 21:43:28
+add_tip(10.0, 10)
+#[Out]# 110.0
+# Thu, 06 Dec 2018 21:46:03
+#11 Editing multiple lines in the code editor allows you to create functions and modify lists easier than using the console, as you can group code together
+# Thu, 06 Dec 2018 21:47:50
+help(add_tip)
+# Thu, 06 Dec 2018 21:50:30
+#12 In scratch you can put blocks inside these other blocks to show which ones execute when the condition is met
+# Thu, 06 Dec 2018 21:51:49
+#13 So that a user can call the help function to find out what the function will do when they call it. 
+# Thu, 06 Dec 2018 21:54:53
+#14 By destroying the variable, you can save memory space that can be used to store values in other variables, or run a different program
+# Thu, 06 Dec 2018 21:58:40
+#15 A compiler would be like recording the entire conversation, then translating it for you to see, and getting a reaction after the entire conversation instead of evrvery sentence
+# Thu, 06 Dec 2018 22:02:08
+%run 1.3.2/Smith_1.3.2.py
+# Thu, 06 Dec 2018 22:03:31
+#17a test
+# Thu, 06 Dec 2018 22:03:37
+hyp(3, 4)
+# Thu, 06 Dec 2018 22:04:17
+%run 1.3.2/Smith_1.3.2.py
+# Thu, 06 Dec 2018 22:04:20
+#17a test
+# Thu, 06 Dec 2018 22:04:22
+hyp(3, 4)
+#[Out]# 5.0
+# Thu, 06 Dec 2018 22:05:23
+%run 1.3.2/Smith_1.3.2.py
+# Thu, 06 Dec 2018 22:05:29
+#17b test
+# Thu, 06 Dec 2018 22:05:35
+mean(3, 4, 7)
+#[Out]# 4.666666666666667
+# Thu, 06 Dec 2018 22:06:26
+%run 1.3.2/Smith_1.3.2.py
+# Thu, 06 Dec 2018 22:06:34
+#17c test
+# Thu, 06 Dec 2018 22:06:49
+perimeter(3, 4)
+#[Out]# 12
+# Thu, 06 Dec 2018 22:08:44
+#Conclusion 1 I would like to have a program that automatically does my laundry, including washing it and folding it
+# Thu, 06 Dec 2018 22:12:42
+#Conclusion 2 The data types we learned were integer, representing whole numbers, floats, representing decimals, booleans, which are true or false, strings, which can be ananything, and long
+# Thu, 06 Dec 2018 22:13:41
+1.0 == 1
+#[Out]# True
+# Thu, 06 Dec 2018 22:13:58
+1 == 1.0
+#[Out]# True
+# Thu, 06 Dec 2018 22:18:14
+#Conclusion 3 The code editor allows you to type in more code and create functions, but you have to save and run the file after every change. The IPython shell allows you to create 1 line of code and enter it, and this code gets instantly run
+# Thu, 06 Dec 2018 22:20:56
+#Conclusion 4 Putting code in a function allows the user to take up less space, and they can use and arguments they want when they run the command using IPython, whereas when itit is not a function you must print to the console with the values that you want
+# Thu, 06 Dec 2018 22:21:24
+%run 1.3.2/Smith_1.3.2.py
+# Thu, 06 Dec 2018 22:22:56
+#Conclusion 5, we recieve a list of 5 numbers, each the answer to the function they are calling with the specified argument. If you have a lot of functions that are all printing the the console, you may not remember what each value is, in which you would want to print a string as well that explains the value
+# Thu, 06 Dec 2018 22:23:10
+%logstop

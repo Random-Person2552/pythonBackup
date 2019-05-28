@@ -1,0 +1,60 @@
+# IPython log file
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import numpy as np
+a = np.random.randin(10000)
+a = np.random.randn(10000)
+plt.hist(a)
+#[Out]# (array([    7.,    61.,   349.,  1386.,  2623.,  2994.,  1835.,   608.,
+#[Out]#          127.,    10.]), array([-4.06247721, -3.278302  , -2.49412678, -1.70995157, -0.92577635,
+#[Out]#        -0.14160114,  0.64257408,  1.4267493 ,  2.21092451,  2.99509973,
+#[Out]#         3.77927494]), <a list of 10 Patch objects>)
+plt.savefig('1.3.2/Histogram')
+%logstart -ort 1.3.2/logs/Smith_1.3.2.#.log
+# Jared Smith 1.3.2 IPython log
+5+3
+#[Out]# 8
+%logstop
+# Wed, 05 Dec 2018 22:15:03
+7*2
+#[Out]# 14
+# Wed, 05 Dec 2018 22:15:11
+7*2.
+#[Out]# 14.0
+# Wed, 05 Dec 2018 22:16:09
+#Jared Smith IPython Log 1.3.2
+# Wed, 05 Dec 2018 22:17:41
+#7a The data type your answer is depends on whether or not you use floats or integers. If you use 2 integers, you will recieve an integer, but if you use a float, you will recieve a float
+# Wed, 05 Dec 2018 22:18:30
+7/2
+#[Out]# 3
+# Wed, 05 Dec 2018 22:18:40
+7/2.
+#[Out]# 3.5
+# Wed, 05 Dec 2018 22:19:25
+#7b Int/int returns an integer, whereas int/float returns a float
+# Wed, 05 Dec 2018 22:19:56
+a = 2
+# Wed, 05 Dec 2018 22:20:42
+#8 assignment
+# Wed, 05 Dec 2018 22:20:48
+student_age = 16
+# Wed, 05 Dec 2018 22:26:55
+a
+#[Out]# 2
+# Wed, 05 Dec 2018 22:27:00
+a * 7
+#[Out]# 14
+# Wed, 05 Dec 2018 22:27:08
+3 ** 2
+#[Out]# 9
+# Wed, 05 Dec 2018 22:34:26
+23**43
+#[Out]# 35834136918934220777541995677272642015423987712183913488967L
+# Wed, 05 Dec 2018 22:35:19
+abs(-7)
+#[Out]# 7
+# Wed, 05 Dec 2018 22:36:21
+%logstop
